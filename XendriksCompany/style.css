@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(0, 0, 0);
+}
+
+.page{
+    background-image: url("./Images/background.png");
+    background-size: cover;
+    margin: 0 auto;
+    width: 800px;
+    border: 1px solid black;
+    padding: 0 45px 10px 45px;
+}
+
+.page img{
+    width: auto;
+    height: 400px;
+    display: block ;
+    margin: 0 auto;
+}
+
+h1{
+    color: rgb(119, 17, 17);
+}
+
+h2{
+    color: rgb(119, 17, 17);
+    border-bottom: 2px solid rgb(119, 17, 17);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td{
+    width: 200px;
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: rgb(229, 214, 171);
+}
+
+.special{
+    margin-top: -15px;
+    color: rgb(119, 17, 17);
+}
+
+.yeet{
+    margin-top: 50px;;
+    text-align: center;
+    font-weight: bolder;
+}
